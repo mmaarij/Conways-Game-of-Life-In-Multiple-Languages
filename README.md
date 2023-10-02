@@ -39,5 +39,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 Choose an implementation from the list below to get started:
 
-- [C++ Terminal Application](cpp-terminal)
+- [C++ Terminal Application](C++ Terminal)
 - [C++ SFML GUI Application](cpp-sfml)
