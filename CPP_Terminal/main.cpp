@@ -177,7 +177,7 @@ int main(void)
             {
                 printBoard(board);
                 updateBoard(board);
-                sleep(1);
+                usleep(100000); // 100 milliseconds
                 system("clear");
             }
             input = 0;

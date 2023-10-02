@@ -172,7 +172,7 @@ int main()
         if (simulationRunning)
         {
             updateBoard(board);
-            sleep(1);
+            usleep(100000); // 100 milliseconds
         }
 
         drawBoard(window, board);
