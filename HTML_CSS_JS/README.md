@@ -1,5 +1,8 @@
 # Conway's Game of Life Implemented as a Web Application
 
+## View the app
+You can view a working version of the app [here](https://conwaysgame.vercel.app/)
+
 ## Getting Started
 
 1. Clone or download this repository to your local machine.
