@@ -1,6 +1,6 @@
 body {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
@@ -8,9 +8,7 @@ body {
 }
 
 canvas {
-    margin-top: 1em;
     border: 1px solid #000;
-    width: 60%;
 }
 
 .controls {
