@@ -1,4 +1,6 @@
-# Instructions
+# Conway's Game of Life Implemented as a C++ Graphical Application using SFML
+
+## Getting Started
 
 ### Install SMFL (https://www.sfml-dev.org/tutorials/2.6/start-linux.php)
 
@@ -18,7 +20,7 @@ $ g++ main.cpp -o main.out -lsfml-graphics -lsfml-window -lsfml-system
 $ ./main.out
 ```
 
-### Program Controls
+## Usage
 
 | Key               | Action                                   |
 |-------------------|------------------------------------------|

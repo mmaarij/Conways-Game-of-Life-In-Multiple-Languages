@@ -1,4 +1,6 @@
-# Instructions
+# Conway's Game of Life Implemented as a C++ Terminal Application
+
+## Getting Started
 
 ### Compile the program
 
@@ -12,7 +14,7 @@ $ g++ main.cpp -o main.out
 $ ./main.out
 ```
 
-### Program Controls
+## Usage
 1. Make Alive (Then enter "rowNumber colNumber" to make that cell alive)
 2. Make Dead (Then enter "rowNumber colNumber" to make that cell dead)
 3. Start Simulation (Then enter number of generations to run)
