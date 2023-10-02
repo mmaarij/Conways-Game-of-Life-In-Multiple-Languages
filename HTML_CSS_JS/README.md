@@ -1,6 +1,6 @@
 # Conway's Game of Life Implemented as a Web Application
 
-## View the Application Online
+## Online Demo
 You can view a working version of the app [here](https://conwaysgame.vercel.app/)
 
 ## Getting Started
