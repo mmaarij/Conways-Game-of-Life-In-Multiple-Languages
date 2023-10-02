@@ -39,5 +39,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 Choose an implementation from the list below to get started:
 
-- [C++ Terminal Application](C++ Terminal)
+- [C++ Terminal Application](https://github.com/mmaarij/Conways-Game-of-Life-In-Multiple-Languages/tree/8227c974b9f6fd6e50bd51b0f631b4afa2a1b0e1/C%2B%2B%20Terminal)
 - [C++ SFML GUI Application](cpp-sfml)
