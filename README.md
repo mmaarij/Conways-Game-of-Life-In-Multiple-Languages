@@ -47,4 +47,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 ### Authors
 
-- [mmaarij](https://github.com/mmaarij)
+<div style="display: flex; align-items: center; margin: 10px;">
+  <img src="https://github.com/mmaarij.png" width="50" height="50" alt="Avatar" style="border-radius: 50%;">
+  <a href="https://github.com/mmaarij" style="margin-left: 10px; margin-right: 10px;">mmaarij</a>
+</div>
+
+<!-- if other contributers need to be added, copy paste the entire div above and paste here, adjusting necessary details (i.e. profile link and username)-->
