@@ -2,12 +2,14 @@
 #include <SFML/Graphics.hpp>
 #include <unistd.h>
 #include <cstdlib>
-#include <ctime>
+#include <time.h>
 
 using namespace std;
 
 #define BOARD_ROWS 150
 #define BOARD_COLS 200
+
+struct timespec delay = {.tv_sec = 0, .tv_nsec = 100000000}; // for use in nanosleep later
 
 void drawBoard(sf::RenderWindow &window, int board[BOARD_ROWS][BOARD_COLS])
 {
@@ -172,7 +174,10 @@ int main()
         if (simulationRunning)
         {
             updateBoard(board);
-            usleep(100000); // 100 milliseconds
+            if (nanosleep(&delay, NULL) == -1)
+            {
+                perror("nanosleep");
+            }
         }
 
         drawBoard(window, board);

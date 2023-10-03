@@ -1,12 +1,14 @@
 #include <iostream>
 #include <unistd.h>
 #include <cstdlib>
-#include <ctime>
+#include <time.h>
 
 using namespace std;
 
 #define BOARD_ROWS 45
 #define BOARD_COLS 200
+
+struct timespec delay = {.tv_sec = 0, .tv_nsec = 100000000}; // for use in nanosleep later
 
 void printBoard(int board[BOARD_ROWS][BOARD_COLS])
 {
@@ -177,7 +179,10 @@ int main(void)
             {
                 printBoard(board);
                 updateBoard(board);
-                usleep(100000); // 100 milliseconds
+                if (nanosleep(&delay, NULL) == -1)
+                {
+                    perror("nanosleep");
+                }
                 system("clear");
             }
             input = 0;
