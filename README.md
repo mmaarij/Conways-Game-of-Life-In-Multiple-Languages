@@ -24,12 +24,13 @@ This repository contains implementations of Conway's Game of Life in multiple pr
 
 #### Choose an implementation from the list below to get started
 
-| Implementaion                | Description                                                                                 |
-|------------------------------|---------------------------------------------------------------------------------------------|
-|[C Terminal Application](C)| A command-line version of the game in C with text-based input and output.                   |
-|[C++ Terminal Application](CPP_Terminal)| A command-line version of the game in C++ with text-based input and output.                 |
-|[C++ SFML GUI Application](CPP_SFML_GUI)| A graphical version of the game in C++ using the Simple and Fast Multimedia Library (SFML). |
-|[Web Application](HTML_CSS_JS)| A simple web app version of the game using basic HTML, CSS and Javascript.                  |
+| Implementaion                | Description                                                                                             |
+|------------------------------|---------------------------------------------------------------------------------------------------------|
+|[C Terminal Application](C)| A command-line version of the game in C with text-based input and output.|
+|[C++ Terminal Application](CPP_Terminal)| A command-line version of the game in C++ with text-based input and output.|
+|[C++ SFML GUI Application](CPP_SFML_GUI)| A graphical version of the game in C++ using the Simple and Fast Multimedia Library (SFML).|
+|[Web Application](HTML_CSS_JS)| A simple web app version of the game using basic HTML, CSS and Javascript.|
+|[Python Terminal Application](Python_Terminal)| A command-line version of the game in Python with text-based input and output.|
 
 ### How to Run
 
