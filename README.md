@@ -22,9 +22,14 @@ This repository contains implementations of Conway's Game of Life in multiple pr
 
 ### Implemented Versions
 
-- **C++ Terminal Application**: A command-line version of the game with text-based input and output.
-- **C++ SFML GUI Application**: A graphical version of the game using the Simple and Fast Multimedia Library (SFML).
-- **Web Application**: A simple web app version of the game using basic HTML, CSS and Javascript.
+#### Choose an implementation from the list below to get started
+
+| Implementaion                | Description                                                                                 |
+|------------------------------|---------------------------------------------------------------------------------------------|
+|[C Terminal Application](C)| A command-line version of the game in C with text-based input and output.                   |
+|[C++ Terminal Application](CPP_Terminal)| A command-line version of the game in C++ with text-based input and output.                 |
+|[C++ SFML GUI Application](CPP_SFML_GUI)| A graphical version of the game in C++ using the Simple and Fast Multimedia Library (SFML). |
+|[Web Application](HTML_CSS_JS)| A simple web app version of the game using basic HTML, CSS and Javascript.                  |
 
 ### How to Run
 
@@ -37,11 +42,3 @@ If you'd like to contribute to this project by adding implementations in other p
 ### License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Get Started
-
-Choose an implementation from the list below to get started:
-
-- [C++ Terminal Application](CPP_Terminal)
-- [C++ SFML GUI Application](CPP_SFML_GUI)
-- [Web Application](HTML_CSS_JS)
