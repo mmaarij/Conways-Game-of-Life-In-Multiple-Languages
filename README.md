@@ -44,3 +44,7 @@ If you'd like to contribute to this project by adding implementations in other p
 ### License
 
 This project is licensed under the [MIT License](LICENSE).
+
+### Authors
+
+- [mmaarij](https://github.com/mmaarij)
