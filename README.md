@@ -32,6 +32,7 @@ This repository contains implementations of Conway's Game of Life in multiple pr
 |[Web Application](HTML_CSS_JS)| A simple web app version of the game using basic HTML, CSS and Javascript.|
 |[Python Terminal Application](Python_Terminal)| A command-line version of the game in Python with text-based input and output.|
 |[Python Pygame GUI Application](Python_Pygame_GUI)| A graphical version of the game in Python using the Pygame module.|
+|[Ruby Terminal Application](Ruby)| A command-line version of the game in Ruby with text-based input and output.|
 
 ### How to Run
 
